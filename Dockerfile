@@ -1,6 +1,6 @@
 FROM debian AS build
 
-ARG kea_version=2.0.2
+ARG kea_version=2.1.3
 
 RUN apt-get update && apt-get install -y \
     wget \
